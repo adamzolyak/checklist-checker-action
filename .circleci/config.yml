@@ -36,5 +36,5 @@ jobs:
           key: v1-dependencies-{{ checksum "package.json" }}
 
       - run:
-          name: Run tests with JUnit as reporter
+          name: run tests
           command: npm test -- --ci --maxWorkers=1 --detectOpenHandles
