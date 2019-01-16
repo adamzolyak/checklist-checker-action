@@ -39,7 +39,7 @@ Example of re-opened issue with incomplete checklist items in the description la
 
 ## Contributing
 
-If you have suggestions for how this GitHub ACtion could be improved, or want to report a bug, open an issue! Or pull request! We'd love all and any contributions. For more, check out the [Contributing Guide](CONTRIBUTING.md).
+If you have suggestions for how this GitHub Action could be improved, or want to report a bug, open an issue! Or pull request! We'd love all and any contributions. For more, check out the [Contributing Guide](CONTRIBUTING.md).
 
 ## License
 
