@@ -1,6 +1,6 @@
 # ✅ Checklist Checker - GitHub Action
 
-A [GitHub Action](https://github.com/features/actions) that helps make checklists more useful in GitHub issues 📝.
+A [GitHub Action](https://github.com/features/actions) that makes sure checklists are completed before closing issues 📝.
 
 ## How It Works
 
