@@ -37,4 +37,4 @@ jobs:
 
       - run:
           name: Run tests with JUnit as reporter
-          command: npm test -- --ci --maxWorkers=1
+          command: npm test -- --ci --maxWorkers=1 --detectOpenHandles
