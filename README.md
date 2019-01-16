@@ -17,12 +17,12 @@ To setup this action:
 
 ```
 workflow "Issue Checklist Checker" {
-  resolves = ["CheckChecklist"]
+  resolves = ["Check Checklist"]
   on = "issues"
 }
 
-action "CheckChecklist" {
-  uses = "waffleio/gh-actions/action-checklistchecker@master"
+action "Check Checklist" {
+  uses = "adamzolyak/checklist-checker-action@master"
   secrets = ["GITHUB_TOKEN"]
 }
 ```

@@ -22,9 +22,9 @@
   "author": "Adam Zolyak",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/waffleio/gh-actions/issues"
+    "url": "https://github.com/adamzolyak/checklist-checker-action/issues"
   },
-  "homepage": "https://waffleio/gh-actions/",
+  "homepage": "https://github.com/adamzolyak/checklist-checker-action",
   "dependencies": {
     "@octokit/rest": "^15.15.1"
   },
