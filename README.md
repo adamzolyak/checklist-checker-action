@@ -43,7 +43,7 @@ Example of re-opened issue with incomplete checklist items in the description la
 
 Tests are written in [Jest](https://jestjs.io/en/). Tests automatically run on check in.
 
-[![CircleCI](https://circleci.com/gh/adamzolyak/checklist-checker-action/tree/master.svg?style=svg)](https://circleci.com/gh/adamzolyak/checklist-checker-action/tree/master)
+Test Status: [![CircleCI](https://circleci.com/gh/adamzolyak/checklist-checker-action/tree/master.svg?style=svg)](https://circleci.com/gh/adamzolyak/checklist-checker-action/tree/master)
 
 ### To run tests locally
 
