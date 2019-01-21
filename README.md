@@ -6,6 +6,14 @@ A [GitHub Action](https://github.com/features/actions) that makes sure checklist
 
 This GitHub Action runs when an [`issues` event webhook](https://developer.github.com/v3/activity/events/types/#issuesevent) is fired in your GitHub repo. The action checks if there are incomplete checklist items `- [ ] to do` in markdown in the issue's description. If there is 1 or > incomplete checklist items, the action labels the issue with "Incomplete Items". Also, if the issue is closed with incomplete checklist items, the action will reopen the issue and comment on the issue.
 
+## Examples
+
+Example of issue with incomplete checklist items in the description labeled with "Incomplete Tasks" label:
+![GitHub Logo](./docs/issuewlabel.png)
+
+Example of re-opened issue with incomplete checklist items in the description labeled with "Incomplete Tasks" label:
+![GitHub Logo](./docs/issuereopened.png)
+
 ## Installation
 
 To use this GitHub Action, you must have access to [GitHub Actions](https://github.com/features/actions). GitHub Actions are currently only available in private beta (you must [apply for access](https://github.com/features/actions)) and only work in private repos.
@@ -28,14 +36,6 @@ action "Check Checklist" {
 ```
 
 3. Whenever you create, update, close, or reopen an issue, the action will run!
-
-## Examples
-
-Example of issue with incomplete checklist items in the description labeled with "Incomplete Tasks" label:
-![GitHub Logo](./docs/issuewlabel.png)
-
-Example of re-opened issue with incomplete checklist items in the description labeled with "Incomplete Tasks" label:
-![GitHub Logo](./docs/issuereopened.png)
 
 ## Contributing
 
