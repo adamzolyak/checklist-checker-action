@@ -5,7 +5,7 @@ LABEL "com.github.actions.description"="Making sure checklists are completed bef
 LABEL "com.github.actions.icon"="check-square"
 LABEL "com.github.actions.color"="green"
 
-LABEL "repository"="http://github.com/waffleio/gh-actions"
+LABEL "repository"="http://github.com/adamzolyak/gh-actions"
 LABEL "homepage"="https://github.com/adamzolyak/checklist-checker-action"
 LABEL "maintainer"="Adam Zolyak <adam@tinkurlab.com>"
 

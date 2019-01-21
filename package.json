@@ -8,11 +8,11 @@
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
-    "test": "GITHUB_TOKEN='00000' GITHUB_REPOSITORY='waffleio/waffle.io' GITHUB_EVENT_PATH='./tests/fixtures/actionTrigger.json' jest"
+    "test": "GITHUB_TOKEN='00000' GITHUB_REPOSITORY='adamzolyak/actions-playground' GITHUB_EVENT_PATH='./tests/fixtures/actionTrigger.json' jest"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/waffleio/gh-actions.git"
+    "url": "git+https://github.com/adamzolyak/gh-actions.git"
   },
   "keywords": [
     "github",
