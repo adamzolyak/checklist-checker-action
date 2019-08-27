@@ -20,19 +20,22 @@ To use this GitHub Action, you must have access to [GitHub Actions](https://gith
 
 To setup this action:
 
-1. Create a `.github/main.workflow` in your GitHub repo.
-2. Add the following code to the `main.workflow` file and commit it to the repo's `master` branch.
+1. Create a `.github/worksflows/main.yml` in your GitHub repo ([more info](https://help.github.com/en/articles/configuring-a-workflow)).
+2. Add the following code to the `main.yml` file and commit it to the repo's `master` branch.
 
-```
-workflow "Issue Checklist Checker" {
-  resolves = ["Check Checklist"]
-  on = "issues"
-}
+```yaml
+name: Issue Checklist Checker
 
-action "Check Checklist" {
-  uses = "adamzolyak/checklist-checker-action@master"
-  secrets = ["GITHUB_TOKEN"]
-}
+on: issues
+
+jobs:
+  checkIssue:
+    name: Check Issue for Incomplete Checklist
+    runs-on: ubuntu-latest
+    steps:
+      - uses: adamzolyak/checklist-checker-action@master
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 ```
 
 3. Whenever you create, update, close, or reopen an issue, the action will run!
@@ -43,4 +46,4 @@ If you have suggestions for how this GitHub Action could be improved, or want to
 
 ## License
 
-[ISC](LICENSE) © 2018 Adam Zolyak <adam@tinkurlab.com> (www.tinkurlab.com)
+[ISC](LICENSE) © 2019 Adam Zolyak <adam@tinkurlab.com> (www.tinkurlab.com)

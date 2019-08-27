@@ -26,7 +26,7 @@
   },
   "homepage": "https://github.com/adamzolyak/checklist-checker-action",
   "dependencies": {
-    "@octokit/rest": "^16.16.0"
+    "@octokit/rest": "^16.28.7"
   },
   "devDependencies": {
     "jest": "^23.6.0"

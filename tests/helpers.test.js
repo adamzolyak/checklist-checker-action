@@ -94,7 +94,7 @@ describe('reopenIssue', () => {
   it('should reopen the specified issue', async () => {
     let octokit = {
       issues: {
-        edit: jest.fn().mockResolvedValue({ something: 'something' }),
+        update: jest.fn().mockResolvedValue({ something: 'something' }),
         createComment: jest.fn().mockResolvedValue({ something: 'something' })
       }
     }
@@ -105,7 +105,7 @@ describe('reopenIssue', () => {
       'actions-playground',
       '1'
     )
-    expect(octokit.issues.edit).toHaveBeenCalledTimes(1)
+    expect(octokit.issues.update).toHaveBeenCalledTimes(1)
     expect(octokit.issues.createComment).toHaveBeenCalledTimes(1)
     expect(octokit.issues.createComment.mock.calls[0][0].body).toMatch(
       /incomplete checklist items/
