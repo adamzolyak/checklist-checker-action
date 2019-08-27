@@ -33,8 +33,7 @@ jobs:
     name: Check Issue for Incomplete Checklist
     runs-on: ubuntu-latest
     steps:
-      - name: Check Issue
-        uses: adamzolyak/checklist-checker-action@master
+      - uses: adamzolyak/checklist-checker-action@master
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 ```
