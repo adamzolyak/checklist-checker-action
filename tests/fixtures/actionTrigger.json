@@ -1,8 +1,7 @@
 {
-  "action": "edited",
+  "action": "closed",
   "issue": {
-    "id": 376593094,
-    "number": 19,
+    "number": 84,
     "title": "newissue3",
     "state": "open",
     "body": "checklist - [x] to do - [ ] to do"

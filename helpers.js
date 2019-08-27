@@ -77,7 +77,7 @@ module.exports.reopenIssue = function(
   eventIssueNumber
 ) {
   octokit.issues
-    .edit({
+    .update({
       owner: eventOwner,
       repo: eventRepo,
       issue_number: eventIssueNumber,
