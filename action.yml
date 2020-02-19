@@ -1,0 +1,8 @@
+name: "Issue Checklist Checker"
+description: "Issue Checklist Checker"
+runs:
+  using: "docker"
+  image: "Dockerfile"
+branding:
+  icon: "check-square"
+  color: "green"
